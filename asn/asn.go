@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	asnmap "github.com/projectdiscovery/asnmap/libs"
+	asnmap "github.com/khulnasoft-labs/asnmap/libs"
 	"github.com/khulnasoft-labs/mapcidr"
 )
 
