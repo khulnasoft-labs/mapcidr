@@ -8,8 +8,8 @@
 
 
 <p align="center">
-<a href="https://github.com/khulnasoft-labs/mapcidr/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/khulnasoft-labs/mapcidr/releases"><img src="https://img.shields.io/github/release/khulnasoft-labs/mapcidr"></a>
+<a href="https://github.com/khulnasoft-lab/mapcidr/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/khulnasoft-lab/mapcidr/releases"><img src="https://img.shields.io/github/release/khulnasoft-lab/mapcidr"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
 <a href="https://discord.gg/khulnasoft"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
@@ -48,7 +48,7 @@ mapCIDR is developed to ease load distribution for mass scanning operations, it 
 # Installation
 
 ```sh
-go install -v github.com/khulnasoft-labs/mapcidr/cmd/mapcidr@latest
+go install -v github.com/khulnasoft-lab/mapcidr/cmd/mapcidr@latest
 ```
 
 # Usage
@@ -250,7 +250,7 @@ $ mapcidr -cidr 192.168.1.224/28 -fi ip_list_to_filter.txt
 
 ### IP Formats
 
-In order to represent given IP into multiple formats, `-if 0` flag can be used to display all the supported format values, and specific type of format can be displayed using specific index number as listed [here](https://github.com/khulnasoft-labs/mapcidr/wiki/IP-Format-Index), currently [10 unique formats are supported](https://github.com/khulnasoft-labs/mapcidr/wiki/IP-Format-Index).
+In order to represent given IP into multiple formats, `-if 0` flag can be used to display all the supported format values, and specific type of format can be displayed using specific index number as listed [here](https://github.com/khulnasoft-lab/mapcidr/wiki/IP-Format-Index), currently [10 unique formats are supported](https://github.com/khulnasoft-lab/mapcidr/wiki/IP-Format-Index).
 
 ```console
 $ echo 127.0.1.0 | mapcidr -if 0 -silent
@@ -332,7 +332,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/khulnasoft-labs/mapcidr"
+	"github.com/khulnasoft-lab/mapcidr"
 )
 
 func main() {

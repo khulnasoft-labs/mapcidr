@@ -17,7 +17,7 @@ jobs:
       - name: Get Github tag
         id: meta
         run: |
-          curl --silent "https://api.github.com/repos/khulnasoft-labs/mapcidr/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
+          curl --silent "https://api.github.com/repos/khulnasoft-lab/mapcidr/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -38,4 +38,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64,linux/arm
           push: true
-          tags: khulnasoft-labs/mapcidr:latest,khulnasoft-labs/mapcidr:${{ steps.meta.outputs.TAG }}
+          tags: khulnasoft-lab/mapcidr:latest,khulnasoft-lab/mapcidr:${{ steps.meta.outputs.TAG }}
