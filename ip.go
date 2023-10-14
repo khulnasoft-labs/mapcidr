@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	stringsutil "github.com/khulnasoft-labs/utils/strings"
+	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	sliceutil "github.com/khulnasoft-labs/utils/slice"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 	"github.com/stretchr/testify/require"
 )
 

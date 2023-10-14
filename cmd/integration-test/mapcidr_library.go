@@ -4,7 +4,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/khulnasoft-labs/mapcidr"
+	"github.com/khulnasoft-lab/mapcidr"
 )
 
 type ipIntegrationTest struct {

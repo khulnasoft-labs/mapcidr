@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	stringsutil "github.com/khulnasoft-labs/utils/strings"
+	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	"github.com/stretchr/testify/require"
 )
 

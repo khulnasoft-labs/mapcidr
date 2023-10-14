@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	asnmap "github.com/khulnasoft-labs/asnmap/libs"
-	"github.com/khulnasoft-labs/mapcidr"
+	asnmap "github.com/khulnasoft-lab/asnmap/libs"
+	"github.com/khulnasoft-lab/mapcidr"
 )
 
 var DefaultClient *asnmap.Client
